@@ -23,6 +23,8 @@
     }
 
     //Learn rest Operator
-    
+    const greetFriends=(...friends:string[])=>{
+        friends.forEach((friend:string)=>console.log(`Hi ${friend}`));
+    }
 
 }
