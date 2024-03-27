@@ -1,4 +1,4 @@
-// Learning Function
+{// Learning Function
 // Normal Function
 
 function add(num1:number,num2:number=10):number{
@@ -19,3 +19,4 @@ const poorUser={
 }
 const arr:number[]=[1,4,9];
 const newArr: number[]=arr.map((element:number):number=>element*element)
+}
